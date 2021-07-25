@@ -1,0 +1,8 @@
+Первый пользователь выставил 32202 оценку.
+[cloudera@quickstart /]$ hdfs dfs -cat ratings.csv |cut -d ',' -f 1 | uniq -c|sort -nr | head -n 5
+
+  32202 72315
+   9178 80974
+   8913 137293
+   7919 33844
+   7488 20055
